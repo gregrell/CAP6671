@@ -18,11 +18,11 @@ Last Modified: 2022-04-03
 # Import Libraries
 """
 
-!apt update && apt install xvfb
-!pip install gym-notebook-wrapper
-!apt update && apt install python-opengl ffmpeg
-!pip install pygame
-!pip install pettingzoo[magent]
+# !apt update && apt install xvfb
+# !pip install gym-notebook-wrapper
+# !apt update && apt install python-opengl ffmpeg
+# !pip install pygame
+# !pip install pettingzoo[magent]
 
 """# Model Creation
 This model randomly moves, attacks, or does nothing per timestep. Handles both ranged and melee agents.
